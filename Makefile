@@ -16,7 +16,7 @@ include $(DEVKITARM)/ds_rules
 # INCLUDES is a list of directories containing header files
 # SPECS is the directory containing the important build and link files
 #---------------------------------------------------------------------------------
-export TARGET	:=	left_Boot_Payload9
+export TARGET	:=	Launcher_A9LH
 BUILD		:=	build
 SOURCES		:=	source source/fatfs source/abstraction source/payload source/tga
 DATA		:=	data
