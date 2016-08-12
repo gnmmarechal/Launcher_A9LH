@@ -41,7 +41,7 @@ void DrawMenu(u32 count, u32 index, bool fullDraw)
 			loadtga(true,false,"Launcher_A9LH/Menu/barre.tga",menu_x0,menu_y0 + (i*13));
 		}
 		
-		DrawStringFColor(RED  , TRANSPARENT, menu_x0, menu_y0 - 20, top_screen, "Launcher A9LH v1.0");
+		DrawStringFColor(RED  , TRANSPARENT, menu_x0, menu_y0 - 20, top_screen, "A9LH Launcher v1.0");
 		DrawStringFColor(WHITE, TRANSPARENT, menu_x0, menu_y0 - 10, top_screen, "------------------------------");
         DrawStringFColor(WHITE, TRANSPARENT, menu_x0, menu_y1 +  0, top_screen, "------------------------------");
         DrawStringFColor(WHITE, TRANSPARENT, menu_x0, menu_y1 + 10, top_screen, "START:Poweroff   SELECT:Reboot");
